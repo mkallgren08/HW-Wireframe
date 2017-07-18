@@ -3,78 +3,58 @@ body {
 	width: 900px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 50px;
 	padding-left: 200px;
 	padding-right: 50px;
+	color: black;
 }
 
 .header, .foot, .navbar, .section,
-.aside, .foot, .h1h2h3, .artcbody{
+.aside, .foot, .h1h2h3, .artcbody,
+.text{
 	background-color: #ebebeb;
-}
+	text-align: center; 
+	vertical-align: 50%; }
 
 .header, .foot, .navbar {
+	width: 100%;  
+	margin: 10px 0px 10px 0px;}
+
+.section, .aside{
+	width: 49%; }
+
+.mainbody{
 	width: 100%;
-	background-color: white;
-	text-align: center;
 }
 
 .foot{
-	clear: both;
-}
+	clear: both; }
 
-.test{
-	width: 50%;
-	height: 45px;
-	background-color: rgb(255,255,255)
-	border: 1px;
-	border-color: black;
-	margin:4px;
-}
-
-.section{
+.section {
 	float: left;
-	margin: 10px;
-/* 	margin: 10px;
-	padding: 5px; */
-}
+	margin: 10px 5px 10px 0px; 
+	}
 
 .aside{
 	float: right;
-	margin: 10px 0px 10px 10px;
-/*	margin-left: : 10px;
-	padding-left: : 5px;
-	margin-top: 10px;
-	padding-top: 5px;
-	margin-bottom: 10px;
-	padding-bottom: 5px;
-	margin-right: 0px;
-	padding-right: 0px; */
+	margin: 10px 0px 10px 5px; 
+	height: 350px;}
 
-}
-
-.section, .aside{
-	height: auto;
-	width: 50%;
-	background-color: white;
-	text-align: center;
-
-
-}
 /* Content color needs to be #ebebeb */
 .article{
 	background-color: #777;
-	margin: 5px;
-}
+	margin: 10px 5px 10px 5px; 
+	color: white;}
 
-.h1h2h3, .artcbody{
-	background-color: white;
-	margin: 10px;
-	padding: 5px;
+.h1h2h3, .text{
+	border: 5px solid #777; 
+	color: black;}
 
-}
+.text{
+	height: 150px;
+	overflow: scroll;  }
 
 .artcbody{
+	margin: 10px;
 	position: relative;
-	bottom: 5px;
-}
+	bottom: 10px; }
