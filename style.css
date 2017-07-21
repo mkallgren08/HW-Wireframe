@@ -6,7 +6,8 @@ body {
 	line-height: 50px;
 	padding-left: 200px;
 	padding-right: 50px;
-	color: black;
+	color: #777;
+	overflow: visible;
 }
 
 .header, .foot, .navbar, .section,
@@ -18,7 +19,9 @@ body {
 
 .header, .foot, .navbar {
 	width: 100%;  
-	margin: 10px 0px 10px 0px;}
+	margin: 10px 0px 10px 0px;
+	height: 75px;
+	vertical-align: 50%; }
 
 .section, .aside{
 	width: 49%; }
@@ -48,11 +51,11 @@ body {
 
 .h1h2h3, .text{
 	border: 5px solid #777; 
-	color: black;}
+	color: #777;}
 
 .text{
 	height: 150px;
-	overflow: scroll;  }
+	/* overflow: scroll;  */}
 
 .artcbody{
 	margin: 10px;
